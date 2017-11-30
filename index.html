@@ -20,25 +20,31 @@
     <!-- content with three columns -->
     <div class="content-column-container">
       <div class="content-column large">
-        <div class="story">
+        <div class="story" id="story-main">
           <p>Mother of Three Buys Tuna Steak at Phish Concert. Leaves, "Feeling Funny."</p>
         </div>
         <div class="story">
           <p>MONUMENT VALLEY, AZ - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec nisl at augue dapibus dignissim. Nunc condimentum rutrum metus, ac eleifend lacus viverra nec. Proin ultrices egestas diam sed mollis. Nulla sapien massa, dictum vitae est et, pellentesque rutrum risus. Nunc volutpat, metus ac rutrum tempus, orci nisi porttitor dolor, sit amet luctus metus est ut mauris. Quisque vulputate nisl vitae massa rhoncus, at sagittis elit accumsan. Etiam tempus, lorem quis blandit imperdiet, enim dui lobortis tortor, sit amet lobortis arcu ex id odio. Nam fermentum nulla et eros bibendum, sed ullamcorper massa scelerisque. Vestibulum aliquet placerat leo a hendrerit. Nulla non sagittis neque. Nullam sit amet fringilla massa.</p>
         </div>
-        <div class="story">
-          <p class="story-title">Orca Spends Vacation at Land World Puget</p>
-          <p>PUGET, SO - Sed felis elit, faucibus et ipsum vel, vehicula ultrices purus. Sed congue odio vitae malesuada rhoncus. Integer vitae nisi pulvinar ante accumsan...</p>
-        </div>
-        <div class="story">
-          <p>Earth Spins Backwards for 2017</p>
-        </div>
-        <div class="story">
-          <p class="story-title">Burger for Breakfast: How Early is too Early?</p>
-          <p>Mew York, MY—Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque id quam facilisis, ultrices ante ut, rutrum enim. Praesent eu nisl erat.</p>
-        </div>
-        <div class="story">
+        <div class="content-row">
+          <div class="content-column small">
+            <div class="story">
+              <p class="story-title">Orca Spends Vacation at Land World Puget</p>
+              <p>PUGET, SO - Sed felis elit, faucibus et ipsum vel, vehicula ultrices purus. Sed congue odio vitae malesuada rhoncus. Integer vitae nisi pulvinar ante accumsan...</p>
+            </div>
+            <div class="story" id="story-2">
+            <p>Earth Spins Backwards for 2017</p>
+          </div>
+          </div>
+          <div class="content-column small">
+            <div class="story">
+              <p class="story-title">Burger for Breakfast: How Early is too Early?</p>
+              <p>Mew York, MY—Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque id quam facilisis, ultrices ante ut, rutrum enim. Praesent eu nisl erat.</p>
+            </div>
+            <div class="story" id="story-3">
           <p>Research Shows Cameras Erase Memory</p>
+        </div>
+          </div>
         </div>
       </div>
       <div class="content-column medium">
@@ -46,7 +52,7 @@
           <p class="story-title">FBI Finds Action Star Guilty of False Advertising</p>
           <p>WASHINGTON DC- Donec luctus sem augue, rutrum posuere orci aliquam sed. Nam vitae aliquam lectus. Sed tempor tortor est, nec sagittis eros tincidunt sed. Morbi venenatis condimentum sem, vitae sollicitudin turpis pulvinar eget. Morbi pellentesque consectetur mi id auctor. Phasellus tincidunt orci mauris, placerat pharetra urna fringilla vitae. Morbi eget rutrum urna. Cras condimentum augue ut ante sollicitudin interdum. Pellentesque cursus dolor at tincidunt cursus. Vestibulum blandit aliquam felis...</p>
         </div>
-        <div class="story">
+        <div class="story" id="story-1">
           <p>Cats in Control-Is It a Thing?</p>
         </div>
         <div class="story">
@@ -58,8 +64,15 @@
           <span><img src="./resources/img/img-news-bite.png"></span>
         </div>
         <div class="story">
-          <p class="story-title">NEWS BITES</p>
-          <p>Cat Emoji Goes Viral Buy Youtube Views Home Business Advertising Ideas Advertising Internet Online Illustration in Marketing Materials Finally a Top Secret Way You Can</p>
+          <p class="news-bites">NEWS BITES</p>
+          <div class="content-column">
+            <span>Cat Emoji Goes Viral</span>
+            <span>Buy Youtube Views</span>
+            <span>Home Business Advertising Ideas</span>
+            <span>Advertising Internet Online</span>
+            <span>Illustration in Marketing Materials</span>
+            <span>Finally a Top Secret Way You Can</span>
+          </div>
         </div>
       </div>
     </div>
